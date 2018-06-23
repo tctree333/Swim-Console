@@ -1,5 +1,5 @@
-let accessToken = "8c44e973694a950d414f0c8e348597f3adefc166";
-let deviceID = "1d0038001047353138383138";
+let accessToken = "Access Token Here";
+let deviceID = "Device Id Here";
 
 function update(){
     $.get("https://api.particle.io/v1/devices/"+deviceID+"/roundsGET?access_token="+accessToken+"&format=raw", function(data){
