@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+
+<title>Swim Console</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="4f7b9ccde753f00226c2d076-"></script>
+<script src="script.js" type="4f7b9ccde753f00226c2d076-"></script>
+
+</head>
+<body>
+
+<h1>Swim Console</h1>
+<h2>Send set info here.</h2>
+
+<h3>Current Set:</h3>
+<p id="roundsP">Rounds:</p>
+<p id="intervalP">Interval:</p>
+<p id="remain">Rounds Remaining:</p>
+<button id="update" onclick="update()">Update</button>
+
+<h3>Send Data</h3>
+
+<form id="form">
+<p>Number of Rounds</p>
+<input type="number" name="rounds">
+
+<p>Interval (mmss)</p>
+<input type="number" name="interval">
+</form>
+
+<br>
+<p id="status"></p>
+<button id="send" onclick="send()">Send</button>
+<br>
+<button id="start" onclick="start()">Start Set</button>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/4f936b58/cloudflare-static/rocket-loader.min.js" data-cf-nonce="4f7b9ccde753f00226c2d076-" defer=""></script></body>
+</html>
